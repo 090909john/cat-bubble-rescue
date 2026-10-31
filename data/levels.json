@@ -1,0 +1,273 @@
+{
+ "scenes": [
+  {
+   "id": "garden",
+   "icon": "🌷",
+   "name": {
+    "zh": "花園",
+    "en": "Garden"
+   },
+   "sky": [
+    "#9ad9ff",
+    "#e6f9ff"
+   ],
+   "row": "#c8f2b0",
+   "levels": [
+    {
+     "id": "g1",
+     "type": "rescue",
+     "targets": [
+      "bird"
+     ],
+     "count": true,
+     "icon": "🐦",
+     "sticker": "🐦",
+     "mission": {
+      "zh": "救 {n} 隻小鳥！",
+      "en": "Rescue {n} birds!"
+     },
+     "word": {
+      "zh": "小鳥",
+      "en": "birds"
+     },
+     "name": {
+      "zh": "救小鳥",
+      "en": "Save Birds"
+     }
+    },
+    {
+     "id": "g2",
+     "type": "rescue",
+     "targets": [
+      "flower"
+     ],
+     "count": true,
+     "icon": "🌸",
+     "sticker": "🌸",
+     "mission": {
+      "zh": "用泡泡讓 {n} 朵花開！",
+      "en": "Make {n} flowers bloom!"
+     },
+     "word": {
+      "zh": "花",
+      "en": "flowers"
+     },
+     "name": {
+      "zh": "花朵開花",
+      "en": "Bloom Flowers"
+     },
+     "needs": [
+      3,
+      4,
+      5
+     ]
+    },
+    {
+     "id": "g3",
+     "type": "color",
+     "kind": "bird",
+     "icon": "🎨",
+     "sticker": "🎨",
+     "name": {
+      "zh": "顏色小鳥",
+      "en": "Colour Birds"
+     }
+    },
+    {
+     "id": "g4",
+     "type": "rescue",
+     "targets": [
+      "rabbit",
+      "squirrel",
+      "hedgehog"
+     ],
+     "count": true,
+     "icon": "🐰",
+     "sticker": "🐰",
+     "mission": {
+      "zh": "餵飽 {n} 隻小動物！",
+      "en": "Feed {n} little animals!"
+     },
+     "word": {
+      "zh": "小動物",
+      "en": "animals"
+     },
+     "name": {
+      "zh": "餵小動物",
+      "en": "Feed Animals"
+     }
+    },
+    {
+     "id": "g5",
+     "type": "boss",
+     "icon": "☁️",
+     "sticker": "🌈",
+     "name": {
+      "zh": "花園大烏雲",
+      "en": "Garden Storm Cloud"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sky",
+   "icon": "☁️",
+   "name": {
+    "zh": "天空",
+    "en": "Sky"
+   },
+   "sky": [
+    "#b9b6ff",
+    "#ffe3f3"
+   ],
+   "row": "#dcdcff",
+   "levels": [
+    {
+     "id": "s1",
+     "type": "rescue",
+     "targets": [
+      "bird",
+      "owl",
+      "butterfly"
+     ],
+     "count": true,
+     "icon": "🦉",
+     "sticker": "🦉",
+     "mission": {
+      "zh": "救 {n} 位天空朋友！",
+      "en": "Rescue {n} sky friends!"
+     },
+     "word": {
+      "zh": "朋友",
+      "en": "friends"
+     },
+     "name": {
+      "zh": "天空朋友",
+      "en": "Sky Friends"
+     }
+    },
+    {
+     "id": "s2",
+     "type": "number",
+     "icon": "🎈",
+     "sticker": "🎈",
+     "name": {
+      "zh": "數字氣球",
+      "en": "Number Balloons"
+     }
+    },
+    {
+     "id": "s3",
+     "type": "letter",
+     "icon": "🔤",
+     "sticker": "🔤",
+     "name": {
+      "zh": "字母雲朵",
+      "en": "Letter Clouds"
+     }
+    },
+    {
+     "id": "s4",
+     "type": "zhuyin",
+     "icon": "ㄅ",
+     "sticker": "📝",
+     "name": {
+      "zh": "注音雲朵",
+      "en": "Zhuyin Clouds"
+     }
+    },
+    {
+     "id": "s5",
+     "type": "boss",
+     "icon": "☁️",
+     "sticker": "🌤️",
+     "name": {
+      "zh": "天空大烏雲",
+      "en": "Sky Storm Cloud"
+     }
+    }
+   ]
+  },
+  {
+   "id": "beach",
+   "icon": "🏖️",
+   "name": {
+    "zh": "海邊",
+    "en": "Beach"
+   },
+   "sky": [
+    "#7fd3ff",
+    "#fff6d6"
+   ],
+   "row": "#ffeab0",
+   "levels": [
+    {
+     "id": "b1",
+     "type": "rescue",
+     "targets": [
+      "crab",
+      "turtle",
+      "seal"
+     ],
+     "count": true,
+     "icon": "🦀",
+     "sticker": "🦀",
+     "mission": {
+      "zh": "幫助 {n} 位海邊朋友！",
+      "en": "Help {n} beach friends!"
+     },
+     "word": {
+      "zh": "朋友",
+      "en": "friends"
+     },
+     "name": {
+      "zh": "海邊朋友",
+      "en": "Beach Friends"
+     }
+    },
+    {
+     "id": "b2",
+     "type": "color",
+     "kind": "fish",
+     "icon": "🐠",
+     "sticker": "🐠",
+     "name": {
+      "zh": "顏色小魚",
+      "en": "Colour Fish"
+     }
+    },
+    {
+     "id": "b3",
+     "type": "number",
+     "icon": "🔢",
+     "sticker": "🔢",
+     "name": {
+      "zh": "數字氣球",
+      "en": "Number Balloons"
+     }
+    },
+    {
+     "id": "b4",
+     "type": "zhuyin",
+     "icon": "ㄆ",
+     "sticker": "🐚",
+     "name": {
+      "zh": "注音貝殼雲",
+      "en": "Zhuyin Clouds"
+     }
+    },
+    {
+     "id": "b5",
+     "type": "boss",
+     "icon": "⛈️",
+     "sticker": "🏆",
+     "finale": true,
+     "name": {
+      "zh": "最後的大烏雲",
+      "en": "The Final Storm Cloud"
+     }
+    }
+   ]
+  }
+ ]
+}
