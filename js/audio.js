@@ -41,7 +41,7 @@
         const u = new SpeechSynthesisUtterance(String(text).replace(/[\u{1F300}-\u{1FAFF}\u2600-\u27BF]/gu, ''));
         u.lang = st.lang === 'en' ? 'en-US' : 'zh-TW'; u.rate = 0.9; u.pitch = 1.3; u.volume = Math.max(0.1, st.vol);
         const vs = speechSynthesis.getVoices();
-        const v = vs.find((x) => x.lang.replace('_', '-') === u.lang) || vs.find((x) => x.lang.startsWith(st.lang === 'en' ? 'en' : 'zh'));
+        const v = st.lang === 'en' ? (vs.find((x) => /en[-_]US/i.test(x.lang)) || vs.find((x) => /^en/i.test(x.lang))) : (vs.find(x=>/zh[-_]TW/i.test(x.lang)&&!/yue|canton|hong ?kong/i.test(x.name))||vs.find(x=>/cmn|zh[-_](CN|Hans|Hant-TW)|mandarin|普通話|國語/i.test(x.lang+' '+x.name)&&!/HK|yue|canton/i.test(x.lang+' '+x.name))||null);
         if (v) u.voice = v;
         speechSynthesis.speak(u);
       } catch (e) { /* 沒有語音就略過 */ }

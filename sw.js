@@ -1,5 +1,5 @@
 // 離線快取：所有資源 cache-first
-const VERSION = 'cbr-v1';
+const VERSION = 'cbr-v2';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './css/style.css',
   './js/core.js', './js/store.js', './js/audio.js', './js/art.js', './js/game.js', './js/garden.js', './js/ui.js', './js/main.js',
   './data/levels.json', './data/content.json', './icons/icon-192.png', './icons/icon-512.png'];
